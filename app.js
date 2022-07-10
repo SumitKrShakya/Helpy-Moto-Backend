@@ -8,7 +8,7 @@ app.use(express.static('public'))
 const MongoDB_connection_string = process.env.MONGODB_CONNECTION_STRING_URI
 mongoose.connect(MongoDB_connection_string, {
     useNewUrlParser: true,
-    useUnifiedTopology: true
+    xuseUnifiedTopology: true
 }).then(() => { console.warn("db connection done") })
 
 
