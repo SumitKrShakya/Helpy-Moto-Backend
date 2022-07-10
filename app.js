@@ -1,7 +1,7 @@
 const express = require("express")
 const app = express()
 const mongoose = require('mongoose')
-require('dotenv').config()
+require('dotenv').config({ path: "./Keys/.env" })
 
 app.use(express.static('public'))
 
